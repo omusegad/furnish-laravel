@@ -1,0 +1,26 @@
+span.actionbtns {
+    float: left;
+    margin-right: 7px;
+}
+body[data-sidebar=colored] .vertical-menu {
+    background-color: #fe7865;
+}
+.btn-primary
+{
+    background-color: #fe7865;
+    border: #fe7865;
+
+}
+
+.btn-info
+{
+    background-color: #D16254;
+    border: #D16254;
+
+}
+
+
+.closebtn {
+    margin-top: -37px;
+    margin-right: 16px;
+}
