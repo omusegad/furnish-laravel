@@ -29,7 +29,10 @@ class Product extends Model
      *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
-    
 
+    public function category()
+    {
+        return $this->belongsTo(ProductCategory::class, 'product_category_id', 'id');
+    }
 
 }
