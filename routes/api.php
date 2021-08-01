@@ -27,7 +27,7 @@ PLEASE NOTE THAT BELLOW WOULD NEED VALIDATION ON REAL PROJECTS,
 */
 
 Route::group(['prefix' => 'company'], function(){
-    Route::post('/products', [ProductsByController::class, 'index'] )->name('products');
+    // Route::post('/products', [ProductsByController::class, 'index'] )->name('products');
     Route::get('/products-categories', [GetProductCategoryController::class, 'index'] )->name('products-categories');
 
 });
